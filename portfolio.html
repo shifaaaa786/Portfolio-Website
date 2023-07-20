@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,97 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        
+
         <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">Home</a>
-            <a href="#" style="--i:2;">About</a>
-            <a href="#" style="--i:3;">Skills</a>
-            <a href="#" style="--i:4;">Portfolio</a>
-            <a href="#" style="--i:5;">Contact</a>
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#education" style="--i:3;">Education</a>
+            <a href="#skills" style="--i:4;">Skills</a>
+            <a href="#contact" style="--i:5;">Contact</a>
         </nav>
     </header>
-
-    <section class="home">
-        <div class="home-content">
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container">
             <h3>Hello, I'm</h3>
             <h1>Shifa Farooqui</h1>
             <h3>And I'm a <span>Web Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae rem mollitia dolorem nobis modi voluptatum, earum quas maxime consequuntur ducimus delectus non veritatis nemo maiores nostrum! Ratione, veniam doloremque?</p>
+            <p>With a Strong passion for creating engaging user experiences, I am a Web Developer skilled in crafting
+                dynamic websites. I have worked on diverse projects which have helped me gain Experience, and learn and
+                develop new Skills</p>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/shifa-farooqui-674143226/" style="--i:6;"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/shifaaaa786" style="--i:7;"><i class='bx bxl-github' ></i></a>
-                <a href="#" style="--i:8;"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/shifa-farooqui-674143226/" style="--i:6;"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/shifaaaa786" style="--i:7;"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-instagram-alt'></i></a>
             </div>
-            <a href="SHIFA FAROOQUI.pdf" class="btn">Download CV</a>
+            <a href="Resume.jpg" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="https://www.aquasafemine.com/wp-content/uploads/2018/06/dummy-woman-570x570.png" alt="iamge">
+            <img src="https://www.aquasafemine.com/wp-content/uploads/2018/06/dummy-woman-570x570.png" alt="image">
+        </div>
+    </section>
+
+
+
+    <!-- Education section -->
+    <section class="education" id="education">
+        <div class="container">
+            <span class="dot" style="--i:1;"></span>
+            <span class="course" style="--i:1;"><b>Bachelor of Engineering(Computer Engg)</b></span>
+            <span class="time" style="--i:1;" id="saboo">2021-Present</span><br>
+            <span class="institute" style="--i:1;">M.H Saboo Siddik College of Engineering</span><br><br><br>
+
+
+            <span class="dot" style="--i:2;"></span>
+            <span class="course" style="--i:3;"><b>Higher Secondary Certification</b></span>
+            <span class="time" style="--i:3;" id="jhc">2019-2021</span><br>
+            <span class="institute" style="--i:3;">Jai Hind College</span><br><br><br>
+
+
+            <span class="dot" style="--i:3;"></span>
+            <span class="course" style="--i:5;"><b>Indian Certificate of Secondary Education</b></span>
+            <span class="time" style="--i:5;" id="ccs">2006-2019</span><br>
+            <span class="institute" style="--i:5;">Christ Church School</span>
+        </div>
+    </section>
+
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container">
+
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@example.com</p>
+                    <p>0123456789</p>
+                </div>
+                <div class="contact-right"></div>
+                <form action="#">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
 </body>
+
 </html>
